@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Mainly Login CSS & little JoinUs CSS*/
+.login {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.note {
+    width: 100%;
+    height: 280px;
+    padding-top: 60px;
+    text-align: center;
+    background-color: #FABC3A;
+    border-radius: 0 0 30px 65%;
+}
+
+.loginCard {
+    width: 300px;
+    height: 415px;
+    padding: 35px 18px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0.5px 0.5px 10px;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginNote {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.loginText{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+.loginOther {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 2px;
+    color: #2d2c2c;
+}
+
+.boxTitle {
+    font-size: 11px;
+    font-weight: 900;
+    padding-bottom: 9px;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.box {
+    padding: 10px 8px;
+    font-size: 8px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: 0.5px solid #bababa;
+    border-radius: 30px;
+}
+
+.box::placeholder {
+    padding-left: 8px;
+    color: #706f6f;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.savepassword>span {
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.forgetpassword {
+    font-size: 10px;
+    font-weight: 900;
+    text-decoration: underline;
+    border: none;
+}
+
+.btn {
+    font-family:sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: #FABC3A;
+    border: none;
+    border-radius: 30px;
+}
+
+.backbtn {
+    font-family:sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+}
+
+/* Only JoinUs CSS*/
+.joinUs {
+    width: 100%;
+    height: 100%;
+}
+
+.joinUsCard {
+    width: 300px;
+    height: 415px;
+    padding: 35px 18px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0.5px 0.5px 10px;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.joinUsNote {
+    display: flex;
+    flex-direction: column;
+}
+
+.joinUsText{
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+.joinUsOther {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 2px 0px 20px;
+    color: #2d2c2c;
+}
+
+.username {
+    display: flex;
+    gap: 8px;
+}
+
+.usernameBox {
+    width: 125px;
+}
